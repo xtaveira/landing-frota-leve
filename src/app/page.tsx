@@ -23,11 +23,11 @@ export default function Home() {
       <div className="flex text-center text-2xl mt-24 flex-col gap-12">
         <div>
           <p>SEU NÚMERO FOI: {randNumber}</p>
-          <p>número 15 ganha bombom :D</p>
+          <p>número 15 ganha CHICLETE :D</p>
         </div>
        {ganhouBombom && (
         <div className="bg-red-500 p-15 text-black font-bold mb-24">
-          <p>PARABÉNS VOCÊ GANHOU UM BOMBOM</p>
+          <p>PARABÉNS VOCÊ GANHOU UM CHICLETE</p>
         </div>
        )}
       </div>
