@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## LANDING PAGE FROTA LEVE
 
-## Getting Started
+# COMPONENTES DAS SECTIONS
 
-First, run the development server:
+Cabeçalho (Header): 
+    - SiteLogo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Proposta de Valor (Hero Section): 
+    - HeroBanner
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Imagem ou Vídeo de Destaque: 
+    - FeaturedMedia
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Benefícios ou Características: 
+    - BenefitsList
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Depoimentos ou Prova Social: 
+    - TestimonialsCarousel
 
-## Learn More
+Detalhes do Produto/Serviço: 
+    - ProductDetails
 
-To learn more about Next.js, take a look at the following resources:
+Chamada para Ação (CTA) Adicional: 
+    - SecondaryCTA
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Seção de Perguntas Frequentes (FAQ): 
+    - FAQAccordion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Garantia ou Segurança: 
+    - TrustBadges
 
-## Deploy on Vercel
+Sorteio da Barra de Chocolate:
+    - Sorteio
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Rodapé (Footer): 
+    - Footer
