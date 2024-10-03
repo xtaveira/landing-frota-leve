@@ -3,7 +3,7 @@
 # COMPONENTES DAS SECTIONS
 
 Cabeçalho (Header): 
-    - SiteLogo
+    - Header
 
 Proposta de Valor (Hero Section): 
     - HeroBanner

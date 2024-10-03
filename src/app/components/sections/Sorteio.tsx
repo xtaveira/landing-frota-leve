@@ -2,11 +2,18 @@ import React from 'react'
 
 const Sorteio = () => {
 
-  // const randNumber = Math.floor(Math.random() * 31);
-  // const ganhouBombom = randNumber === 15
+  const randNumber = Math.floor(Math.random() * 31);
+  const ganhouBombom = randNumber === 15
 
   return (
-    <div>Sorteio</div>
+    <div className='py-12 w-full items-center justify-center text-center'>
+      <div className={`${ganhouBombom ? 'bg-green-400 ' : 'bg-red-300 '} text-black text-4xl py-12`}>
+        SORTEIO: 
+        <p>
+          {ganhouBombom ? 'GANHOU O SORTEIO!!!!' : 'NÃO GANHOU :( RECARREGUE A PÁGINA'}
+          </p>
+      </div>
+    </div>
   )
 }
 
