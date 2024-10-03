@@ -2,8 +2,8 @@ import React from 'react'
 
 const Sorteio = () => {
 
-  const randNumber = Math.floor(Math.random() * 31);
-  const ganhouBombom = randNumber === 15
+  const randNumber = Math.floor(Math.random() * 10);
+  const ganhouBombom = randNumber === 9
 
   return (
     <div className='py-12 w-full items-center justify-center text-center'>
