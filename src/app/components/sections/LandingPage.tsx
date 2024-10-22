@@ -15,9 +15,9 @@ export default function LandingPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#FFC314] text-gray-900">
       <header className="px-4 lg:px-6 h-16 flex items-center border-b border-gray-200 relative">
-      <Header/>
-      <h1 className="text-1xl font-bold tracking-tighter sm:text-4xl md:text-2xl text-black  ">Frota Leve</h1>
-        <button 
+        <Header />
+        <h1 className="text-1xl font-bold tracking-tighter sm:text-4xl md:text-2xl text-black  ">Frota Leve</h1>
+        <button
           className="ml-auto lg:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
@@ -25,9 +25,9 @@ export default function LandingPage() {
         </button>
         <nav className={`${isMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col lg:flex-row absolute lg:relative top-16 lg:top-0 left-0 w-full lg:w-auto bg-white lg:bg-transparent z-50 lg:ml-auto items-center gap-4 p-4 lg:p-0 border-b lg:border-b-0 border-gray-200`}>
           {["Recursos", "Sobre", "Preços", "Contato"].map((item) => (
-            <Link 
+            <Link
               key={item}
-              className="text-sm font-medium hover:text-[#FFC314] transition-colors w-full lg:w-auto text-center py-2 lg:py-0" 
+              className="text-sm font-medium hover:text-[#FFC314] transition-colors w-full lg:w-auto text-center py-2 lg:py-0"
               href={`#${item.toLowerCase()}`}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -42,19 +42,19 @@ export default function LandingPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-gray-900">
-                Sua frota no controle certo
+                  Sua frota no controle certo
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-600 md:text-xl">
-                Automatize o gerenciamento de frotas da sua empresa ou órgão público com a frota leve a
-                solução completa que você precisa para substituir o controle no papel.
+                  Automatize o gerenciamento de frotas da sua empresa ou órgão público com a frota leve a
+                  solução completa que você precisa para substituir o controle no papel.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="#preços" passHref>
-                <Button className="w-full sm:w-auto bg-[#FFC314] text-gray-900 hover:bg-[#FFD700]">Comece agora</Button>
+                  <Button className="w-full sm:w-auto bg-[#FFC314] text-gray-900 hover:bg-[#FFD700]">Comece agora</Button>
                 </Link>
                 <Link href="#sobre" passHref>
-                <Button variant="outline" className="w-full sm:w-auto text-gray-900 border-gray-300 hover:bg-gray-100">Saiba Mais</Button>
+                  <Button variant="outline" className="w-full sm:w-auto text-gray-900 border-gray-300 hover:bg-gray-100">Saiba Mais</Button>
                 </Link>
 
               </div>
@@ -90,7 +90,7 @@ export default function LandingPage() {
               <div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-4 text-gray-900">Sobre a Frota Leve</h2>
                 <p className="text-gray-600 md:text-lg mb-6">
-                A Frota Leve é uma solução completa de gerenciamento de frotas desenvolvida para empresas e órgãos públicos que desejam simplificar suas operações logísticas. Nosso foco é reduzir a burocracia e melhorar a eficiência através da tecnologia.
+                  A Frota Leve é uma solução completa de gerenciamento de frotas desenvolvida para empresas e órgãos públicos que desejam simplificar suas operações logísticas. Nosso foco é reduzir a burocracia e melhorar a eficiência através da tecnologia.
                 </p>
                 <p className="text-gray-600 md:text-lg mb-6">
                   Com uma equipe dedicada de desenvolvedores, designers e especialistas em experiência do usuário, estamos constantemente inovando e melhorando nossa plataforma para atender às necessidades em constante evolução dos profissionais modernos.
@@ -99,7 +99,7 @@ export default function LandingPage() {
               </div>
               <div className="relative h-[300px] sm:h-[400px] w-full">
                 <Image
-                  src="/logo_semfundo.png"
+                  src="/logo.png"
                   alt="Equipe TaskMaster"
                   layout="fill"
                   objectFit="cover"
