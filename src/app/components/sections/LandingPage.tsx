@@ -27,7 +27,7 @@ export default function LandingPage() {
           {["Recursos", "Sobre", "Preços", "Contato"].map((item) => (
             <Link
               key={item}
-              className="text-sm font-medium hover:text-[#FFC314] transition-colors w-full lg:w-auto text-center py-2 lg:py-0"
+              className="text-sm font-medium hover:text-[#FFC314] lg:hover:text-white transition-colors w-full lg:w-auto text-center py-2 lg:py-0"
               href={`#${item.toLowerCase()}`}
               onClick={() => setIsMenuOpen(false)}
             >
