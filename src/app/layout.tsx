@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Frota Leve",
   description: "Created by FrotaLeve Team",
+  icons: {
+    icon: '/logo-small.png',
+  }
 };
 
 export default function RootLayout({
